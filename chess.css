@@ -1,0 +1,27 @@
+.box{
+    padding:2px;
+    border: 2px solid;
+
+    
+
+}
+
+.box1,.box3,.box5,.box7{
+    background-color: black;
+}
+
+.box2,.box4,.box6,.box8{
+    background-color: white;
+}
+
+.board{
+    padding: 2px;
+    border: 10px solid;
+    display: grid;
+    
+    grid-template-columns: repeat(8,100px);
+    grid-template-rows: repeat(8,88px);
+    width: fit-content;
+    
+    
+}   
